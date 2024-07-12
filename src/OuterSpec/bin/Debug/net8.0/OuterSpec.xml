@@ -1,0 +1,1318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OuterSpec</name>
+    </assembly>
+    <members>
+        <member name="T:OuterSpec.Models.InsFormat">
+            <summary>
+            保單格式設定
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ifcode">
+            <summary>
+            格式識別碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Itype">
+            <summary>
+            格式類型
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fitem">
+            <summary>
+            格式名稱
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ft">
+            <summary>
+            分隔類型
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Eft">
+            <summary>
+            檔案代碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pwtype">
+            <summary>
+            繳別類型
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ckc">
+            <summary>
+            檢查碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Procs">
+            <summary>
+            特處碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.MdfDate">
+            <summary>
+            修改日期
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.MdfUser">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Period">
+            <summary>
+            佣金月份
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Bname">
+            <summary>
+            獎金名稱
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Supplier">
+            <summary>
+            保險公司
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Sno">
+            <summary>
+            受理編號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ino">
+            <summary>
+            保單號碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PartNo">
+            <summary>
+            批單號碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.ExIno">
+            <summary>
+            前保單號碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Eperiod">
+            <summary>
+            到期月份
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Nce">
+            <summary>
+            NCE碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.AutoRc">
+            <summary>
+            自動續保
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Sitem">
+            <summary>
+            客戶來源
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.St">
+            <summary>
+            保單狀態碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Rdate">
+            <summary>
+            受理日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Idate">
+            <summary>
+            核保簽單
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Sdate">
+            <summary>
+            生效日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Edate">
+            <summary>
+            到期應繳日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pdate">
+            <summary>
+            繳費日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Bdate">
+            <summary>
+            要保書申請日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cdate">
+            <summary>
+            異動日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Agcode">
+            <summary>
+            經代或送件代號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Gc">
+            <summary>
+            單位代碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Hid">
+            <summary>
+            招攬人ID
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Hname">
+            <summary>
+            招攬人姓名
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Hid2">
+            <summary>
+            招攬人2ID
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Lid">
+            <summary>
+            主管ID
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Lname">
+            <summary>
+            主管姓名
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.EndPayWay">
+            <summary>
+            滿期給付方式
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.BonusSel">
+            <summary>
+            紅利選擇方式
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsCode">
+            <summary>
+            商品代碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PrjCode">
+            <summary>
+            專案代碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.ProType">
+            <summary>
+            商品別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Main">
+            <summary>
+            主附約
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pw">
+            <summary>
+            繳別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pt">
+            <summary>
+            繳次
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fyptype">
+            <summary>
+            保費類型
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PayWay">
+            <summary>
+            繳費方式
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Yr">
+            <summary>
+            保單年度
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Yp">
+            <summary>
+            繳費年期
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Byp">
+            <summary>
+            長火保障年期
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Bedate">
+            <summary>
+            保障到期日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Benefits">
+            <summary>
+            保額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Unit">
+            <summary>
+            保額單位
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Crc">
+            <summary>
+            幣別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Crcrate">
+            <summary>
+            匯率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ufyp">
+            <summary>
+            表訂保費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fyp">
+            <summary>
+            台幣或附加保費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Brate">
+            <summary>
+            來佣率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fyb">
+            <summary>
+            台幣或附加來佣
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Arate">
+            <summary>
+            發佣率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fya">
+            <summary>
+            發佣
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Discount">
+            <summary>
+            折扣金額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Srv">
+            <summary>
+            服務費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.IaddrNo">
+            <summary>
+            被保人寄送郵編
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Iaddr">
+            <summary>
+            被保人寄送地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pid">
+            <summary>
+            要保人ID
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pname">
+            <summary>
+            要保人姓名
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pbdate">
+            <summary>
+            要保人生日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Psex">
+            <summary>
+            要保人性別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pmrg">
+            <summary>
+            要保人婚姻
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Phtel">
+            <summary>
+            要保人電話
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Potel">
+            <summary>
+            要保人公司電話
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pfax">
+            <summary>
+            要保人傳真
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pmobile">
+            <summary>
+            要保人手機
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pemail">
+            <summary>
+            要保人EMail
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PregAddrNo">
+            <summary>
+            要保人寄送郵編
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PregAddr">
+            <summary>
+            要保人寄送地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PaddrNo">
+            <summary>
+            要保人戶籍郵編
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Paddr">
+            <summary>
+            要保人戶籍地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsId">
+            <summary>
+            被保人ID
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsName">
+            <summary>
+            被保人姓名
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsBdate">
+            <summary>
+            被保人生日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsSex">
+            <summary>
+            被保人性別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Age">
+            <summary>
+            被保年齡
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsMrg">
+            <summary>
+            被保人婚姻
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsHtel">
+            <summary>
+            被保人電話
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsOtel">
+            <summary>
+            被保人公司電話
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsFax">
+            <summary>
+            被保人傳真
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsMobile">
+            <summary>
+            被保人手機
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsEmail">
+            <summary>
+            被保人EMAIL
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsRegAddrNo">
+            <summary>
+            被保人通訊郵編
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsRegAddr">
+            <summary>
+            被保人通訊地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsAddrNo">
+            <summary>
+            被保人戶籍郵編
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsAddr">
+            <summary>
+            被保人戶籍地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsInd">
+            <summary>
+            被保人職業代碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.BeName">
+            <summary>
+            受益人
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Relation">
+            <summary>
+            要被保關係
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ffyp">
+            <summary>
+            外幣或火險保費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ffyb">
+            <summary>
+            外幣或火險佣金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fbnf">
+            <summary>
+            火險保額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fsdate">
+            <summary>
+            火險生效日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fedate">
+            <summary>
+            火險到期日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Efyp">
+            <summary>
+            地震保費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Efyb">
+            <summary>
+            地震佣金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ebnf">
+            <summary>
+            地震保額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Esdate">
+            <summary>
+            地震生效日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Eedate">
+            <summary>
+            地震到期日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PayNo">
+            <summary>
+            放貸款帳號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.CardType">
+            <summary>
+            信用卡別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PayBank">
+            <summary>
+            發卡或轉帳銀行
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Payment">
+            <summary>
+            卡號或委扣帳號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PayAmt">
+            <summary>
+            付款金額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ono">
+            <summary>
+            其他代號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Otype">
+            <summary>
+            其他類別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Odtype">
+            <summary>
+            其他子類別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Days">
+            <summary>
+            其他天數
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Oyn">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Remark">
+            <summary>
+            備註
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.CarNo">
+            <summary>
+            車號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.CarCc">
+            <summary>
+            CC數
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.CarMark">
+            <summary>
+            車輛廠牌
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.FactoryDate">
+            <summary>
+            出廠日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.LicenceNo">
+            <summary>
+            行照號碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.EngNo">
+            <summary>
+            引擎號碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Floor">
+            <summary>
+            樓層
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Struc">
+            <summary>
+            結構
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Roof">
+            <summary>
+            天花板
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Area">
+            <summary>
+            坪數
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fyear">
+            <summary>
+            建造年份
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ship">
+            <summary>
+            航班
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Sport">
+            <summary>
+            起埠
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Eport">
+            <summary>
+            迄埠
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InvNo">
+            <summary>
+            發票號碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Hgno">
+            <summary>
+            獎品卡號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ritem">
+            <summary>
+            通路代碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Rditem">
+            <summary>
+            通路細項
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Nlist">
+            <summary>
+            名單種類
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ndlist">
+            <summary>
+            名單細項
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fypacc">
+            <summary>
+            累計實繳原幣保費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Tfypacc">
+            <summary>
+            累計實繳台幣保費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Withdraw">
+            <summary>
+            累計原幣提領金額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Twithdraw">
+            <summary>
+            累計台幣提領金額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ypa">
+            <summary>
+            保障年期ABC
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Bypa">
+            <summary>
+            繳費年期ABCDEF
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.S1">
+            <summary>
+            預留1
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.S2">
+            <summary>
+            預留2
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.S3">
+            <summary>
+            預留3
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cm1">
+            <summary>
+            服務費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cm2">
+            <summary>
+            匯費補貼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cm3">
+            <summary>
+            獎勵金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cm4">
+            <summary>
+            收費津貼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cm5">
+            <summary>
+            行政津貼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cm6">
+            <summary>
+            其他津貼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cm7">
+            <summary>
+            其他獎金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.LicenceYm">
+            <summary>
+            原始發照年份
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.FactoryYm">
+            <summary>
+            出廠年月
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.CarType">
+            <summary>
+            車輛種類
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Xfyp">
+            <summary>
+            附約保費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Xfyb">
+            <summary>
+            附約佣金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ifyp">
+            <summary>
+            外幣保費
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ifyb">
+            <summary>
+            外幣佣金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Sfyp">
+            <summary>
+            應收佣金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Url">
+            <summary>
+            網址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Files">
+            <summary>
+            附件檔名
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pename">
+            <summary>
+            持有人英文姓名
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Iename">
+            <summary>
+            被保人英文姓名
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Oin">
+            <summary>
+            原幣貸款利息
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Ocor">
+            <summary>
+            原幣貸款本金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Tin">
+            <summary>
+            臺幣貸款利息
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Tcor">
+            <summary>
+            臺幣貸款本金
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fno">
+            <summary>
+            投資標的代號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fname">
+            <summary>
+            投資標的名稱
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fcompany">
+            <summary>
+            投資標的物公司代碼
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Goal">
+            <summary>
+            標的餘額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cnt">
+            <summary>
+            配息次數
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Fbi">
+            <summary>
+            FBI
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Eia">
+            <summary>
+            預估配息原幣金額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Crc2">
+            <summary>
+            標的幣別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Crcrate2">
+            <summary>
+            標的投入日匯率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InWay">
+            <summary>
+            配息方式
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Sia">
+            <summary>
+            儲存生息餘額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Siadate">
+            <summary>
+            儲存生息餘額計算日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pia">
+            <summary>
+            實際配息金額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Piarate">
+            <summary>
+            實際配息率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PayWayS">
+            <summary>
+            續期繳費方式
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.SpDate">
+            <summary>
+            停效起日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.RepDate">
+            <summary>
+            停效迄日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.FreeDate">
+            <summary>
+            免解約金日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.SendDate">
+            <summary>
+            保單郵寄日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Priv">
+            <summary>
+            密戶指示
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Tdate">
+            <summary>
+            保單簽收日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.AddCost">
+            <summary>
+            加費指示
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Antype">
+            <summary>
+            給付項目
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Anway">
+            <summary>
+            給付方式
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InvType">
+            <summary>
+            投資標的類型
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Cost">
+            <summary>
+            持有原幣成本
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Tcost">
+            <summary>
+            持有台幣成本
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.TargetCost">
+            <summary>
+            持有標的成本
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Value">
+            <summary>
+            目前原幣價值
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Tvalue">
+            <summary>
+            目前台幣價值
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.TargetValue">
+            <summary>
+            目前標的價值
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Roa">
+            <summary>
+            原幣含息報酬率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Troa">
+            <summary>
+            台幣含息報酬率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.TargetRoa">
+            <summary>
+            標的含息報酬率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Roi">
+            <summary>
+            原幣不含息報酬率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Troi">
+            <summary>
+            台幣不含息報酬率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.TargetRoi">
+            <summary>
+            標的不含息報酬率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.TargetWithdraw">
+            <summary>
+            標的已領現金配息
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.WithdrawAcc">
+            <summary>
+            累計原幣現金配息
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.TwithdrawAcc">
+            <summary>
+            台幣累計現金配息
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.TargetWithdrawAcc">
+            <summary>
+            標的累計現金配息
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Remark2">
+            <summary>
+            備註2
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Grade">
+            <summary>
+            建物等級
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Maddr">
+            <summary>
+            標的物地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Maddr2">
+            <summary>
+            建物地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.CarStyle">
+            <summary>
+            廠牌車型
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PptcarType">
+            <summary>
+            車險件別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.FloorUp">
+            <summary>
+            地上樓層數
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.FloorDown">
+            <summary>
+            地下樓層數
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsHomeAddr">
+            <summary>
+            被保人住居地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhomeAddr">
+            <summary>
+            要保人住居地址
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsRegContry">
+            <summary>
+            要保人戶籍地址國家
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsContry">
+            <summary>
+            要保人聯絡地址國家
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsHomeContry">
+            <summary>
+            要保人住居地址國家
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PregContry">
+            <summary>
+            被保人戶籍地址國家
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Pcontry">
+            <summary>
+            被保人聯絡地址國家
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhomeContry">
+            <summary>
+            被保人住居地址國家
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsHomeAddrNo">
+            <summary>
+            被保人住居地址郵遞區號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhomeAddrNo">
+            <summary>
+            要保人住居地址郵遞區號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.SoundNo">
+            <summary>
+            錄音資料序號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.ProName">
+            <summary>
+            商品名稱
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PrmRate">
+            <summary>
+            約定比率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsCost">
+            <summary>
+            保險成本
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.CarModel">
+            <summary>
+            車籍資料
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhoneStyle">
+            <summary>
+            手機廠牌
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhoneType">
+            <summary>
+            手機型號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhoneImei">
+            <summary>
+            IMEI/SN
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhonePrice">
+            <summary>
+            空機價格
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhoneNmber">
+            <summary>
+            手機門號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PhonePayment">
+            <summary>
+            承保自付額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Stage">
+            <summary>
+            分期期數
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.BusinessSource">
+            <summary>
+            業務來源
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.WriteOffSdate">
+            <summary>
+            銷帳起始日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PartEdate">
+            <summary>
+            批單止日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsPartSdate">
+            <summary>
+            批單起日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsPartEdate">
+            <summary>
+            批單止日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.OutOfAccountPeriod">
+            <summary>
+            出帳月份
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.DlvBdate">
+            <summary>
+            進件申請日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.DealerNo">
+            <summary>
+            盤商代號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.PromotionNo">
+            <summary>
+            促銷代號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsWork">
+            <summary>
+            被保人任職工作名稱
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.InsWorkCt">
+            <summary>
+            被保人工作內容
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.WriteOffNo">
+            <summary>
+            銷帳編號
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.BargainRate">
+            <summary>
+            議價佣率
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.BargainReason">
+            <summary>
+            議價原因
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.FixTm">
+            <summary>
+            可維修次數/金額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.FixedTm">
+            <summary>
+            已維修次數/金額
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Mid">
+            <summary>
+            繳款人ID
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Mname">
+            <summary>
+            繳款人姓名
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Mbday">
+            <summary>
+            繳款人生日
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Msex">
+            <summary>
+            繳款人性別
+            </summary>
+        </member>
+        <member name="P:OuterSpec.Models.InsFormat.Mcontry">
+            <summary>
+            繳款人國籍
+            </summary>
+        </member>
+    </members>
+</doc>

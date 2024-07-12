@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E7EF6B1F-3F88-4C3F-AD63-CBC1039B1CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OuterSpec", "src\OuterSpec\OuterSpec.csproj", "{5D14FE30-818E-44BC-8D9F-97165D580DC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D14FE30-818E-44BC-8D9F-97165D580DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D14FE30-818E-44BC-8D9F-97165D580DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D14FE30-818E-44BC-8D9F-97165D580DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D14FE30-818E-44BC-8D9F-97165D580DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D14FE30-818E-44BC-8D9F-97165D580DC4} = {E7EF6B1F-3F88-4C3F-AD63-CBC1039B1CCA}
+	EndGlobalSection
+EndGlobal
